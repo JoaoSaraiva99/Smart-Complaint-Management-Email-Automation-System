@@ -35,3 +35,10 @@ Based on the implementation and identified limitations, the following improvemen
 * Fully integrate AI Builder outputs into the workflow to enable automated validation of invoice data (e.g., Issue Date filtering);
 * Enhance data consistency by including all extracted invoice fields (especially Invoice Date) in the Excel database;
 * Improve system robustness by adding error-handling mechanisms for missing or invalid attachments.
+
+# Additional Resources  
+
+You can consult the full project presentation here:  
+
+🔗 [Project Presentation PDF](https://github.com/JoaoSaraiva99/Smart-Complaint-Management-Email-Automation-System/blob/main/Modern%20Pitch%20Deck%20Presentation%20Template-3.pdf)
+
