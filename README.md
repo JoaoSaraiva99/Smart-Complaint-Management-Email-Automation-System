@@ -27,6 +27,44 @@ Key functionalities include:
 
 The solution significantly reduces operational workload, minimizes human error, and accelerates response times, ultimately improving customer satisfaction
 
+<img width="488" height="460" alt="imagem" src="https://github.com/user-attachments/assets/cdd3e977-865c-4353-9dfc-06d7fc730bc9" />
+
+<img width="580" height="456" alt="imagem" src="https://github.com/user-attachments/assets/709dac8d-fe4d-43cf-a879-0381a6cdb3e1" />
+
+## Mail Classification
+Prompt used:
+You are a natural language processing assistant. Your task is to analyze the text of a received email and identify the following information:
+Request Type Classification: Determine whether the email is an **"Information Request"** or a **"Complaint"**.
+
+Use the following criteria:
+* If the text contains questions, requests for details, or explanations, classify it as an "Information Request".
+* If the text contains dissatisfaction, criticism, reported issues, or complaints, classify it as a "Complaint".
+
+Sentiment Analysis:
+Classify the overall sentiment of the email as **"Positive"**, **"Negative"**, or **"Neutral"**.
+* Positive: The text shows satisfaction, gratitude, or praise.
+* Negative: The text shows dissatisfaction, frustration, or complaints.
+* Neutral: The text has no clear emotions or uses objective language.
+
+Language Identification: Identify the language in which the email was written. Return the language in ISO 639-1 format (e.g., "pt" for Portuguese, "en" for English, "es" for Spanish).
+
+Tax Identification Number (TIN) Identification: Search for the Tax Identification Number in the email text.
+* If found, return the identified number.
+* If not found, set it as "N/A".
+
+Urgency: Yes or No: Determine whether the email indicates urgency.
+ Use the following criteria:
+If the text contains words such as "urgent", "immediate", "priority", or mentions tight deadlines, set it as "Yes".
+Otherwise, set it as "No".
+
+Input:
+
+Expected Output: the following fields in the format:
+* RequestType: "Information Request" or "Complaint".
+* Sentiment: "Positive", "Negative", or "Neutral".
+* Language: ISO 639-1 code of the identified language and the language name in European Portuguese.
+* TIN: Identified number or "N/A" if not found.
+* Urgent: "Yes" or "No".
 
 # Recommendations
 
