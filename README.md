@@ -31,6 +31,21 @@ The solution significantly reduces operational workload, minimizes human error, 
 
 <img width="580" height="456" alt="imagem" src="https://github.com/user-attachments/assets/709dac8d-fe4d-43cf-a879-0381a6cdb3e1" />
 
+### FIRST CONDITION - HAS ATTACHMENTS
+<img width="658" height="276" alt="imagem" src="https://github.com/user-attachments/assets/f49ff580-e0dc-468f-ab7f-6d1cd6c941e6" />
+### SECOND CONDITION - REQUEST TYPE
+<img width="753" height="461" alt="imagem" src="https://github.com/user-attachments/assets/46f1e7d0-cdd2-47c4-8418-9e2e00048906" />
+### ADD ROW TO EXCEL
+<img width="473" height="449" alt="imagem" src="https://github.com/user-attachments/assets/17a4e705-8493-4650-b8e6-b69b0844af95" />
+### ADD TASK
+<img width="505" height="361" alt="imagem" src="https://github.com/user-attachments/assets/0122204d-7edc-44eb-9f7e-615fe834161d" />
+### THIRD CONDITON - URGENCY
+<img width="807" height="446" alt="imagem" src="https://github.com/user-attachments/assets/5257a690-3a5b-4b09-bcf1-a8e49ac01716" />
+### FORTH CONDITION - APPROVAL
+<img width="1724" height="836" alt="imagem" src="https://github.com/user-attachments/assets/8a8e14ae-bd81-42ff-a22e-932cdf6b0081" />
+### SURVEY
+<img width="1318" height="564" alt="imagem" src="https://github.com/user-attachments/assets/11082bb2-1ccf-4f87-afd7-d141bc210c20" />
+
 ## Mail Classification
 Prompt used:
 You are a natural language processing assistant. Your task is to analyze the text of a received email and identify the following information:
@@ -65,6 +80,16 @@ Expected Output: the following fields in the format:
 * Language: ISO 639-1 code of the identified language and the language name in European Portuguese.
 * TIN: Identified number or "N/A" if not found.
 * Urgent: "Yes" or "No".
+
+## REQUEST SUMMARY
+Prompt used:
+“Structure the task body based on the following email in European Portuguese.
+
+Identify the customer, include a clear and objective summary of the reported situation, indicating whether it is an information request or a complaint.
+ 
+Specify any relevant data, such as the customer’s **Tax Identification Number** (TIN), and detail any additional information or inconsistencies present, such as missing or incorrect attachments.
+
+* Highlight elements that facilitate the operator’s work, such as **urgency**, **message details**, or **documentation**. Ensure a structured and clear presentation to facilitate understanding.”
 
 # Recommendations
 
