@@ -33,16 +33,22 @@ The solution significantly reduces operational workload, minimizes human error, 
 
 ### FIRST CONDITION - HAS ATTACHMENTS
 <img width="658" height="276" alt="imagem" src="https://github.com/user-attachments/assets/f49ff580-e0dc-468f-ab7f-6d1cd6c941e6" />
+
 ### SECOND CONDITION - REQUEST TYPE
 <img width="753" height="461" alt="imagem" src="https://github.com/user-attachments/assets/46f1e7d0-cdd2-47c4-8418-9e2e00048906" />
+
 ### ADD ROW TO EXCEL
 <img width="473" height="449" alt="imagem" src="https://github.com/user-attachments/assets/17a4e705-8493-4650-b8e6-b69b0844af95" />
+
 ### ADD TASK
 <img width="505" height="361" alt="imagem" src="https://github.com/user-attachments/assets/0122204d-7edc-44eb-9f7e-615fe834161d" />
+
 ### THIRD CONDITON - URGENCY
 <img width="807" height="446" alt="imagem" src="https://github.com/user-attachments/assets/5257a690-3a5b-4b09-bcf1-a8e49ac01716" />
+
 ### FORTH CONDITION - APPROVAL
 <img width="1724" height="836" alt="imagem" src="https://github.com/user-attachments/assets/8a8e14ae-bd81-42ff-a22e-932cdf6b0081" />
+
 ### SURVEY
 <img width="1318" height="564" alt="imagem" src="https://github.com/user-attachments/assets/11082bb2-1ccf-4f87-afd7-d141bc210c20" />
 
